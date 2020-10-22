@@ -7,5 +7,15 @@
   background: pink;
   border: 1px solid black;
   text-align: center;
-  line-height: 20vh;
+  line-height: calc(20vh - 1px);
+}
+
+.nested .container{
+  padding: 10px;
+}
+
+.nested [class*="col-"]{
+  height: calc(20vh - 22px);
+  line-height: calc(20vh - 22px);
+  background: coral;
 }
