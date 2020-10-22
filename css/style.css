@@ -7,7 +7,14 @@
   background: pink;
   border: 1px solid black;
   text-align: center;
-  line-height: calc(20vh - 1px);
+  position: relative;
+}
+
+[class*="col-"] span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .nested .container{
@@ -16,6 +23,5 @@
 
 .nested [class*="col-"]{
   height: calc(20vh - 22px);
-  line-height: calc(20vh - 22px);
   background: coral;
 }
