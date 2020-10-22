@@ -1,0 +1,11 @@
+.container{
+  min-height: 100vh;
+}
+
+[class*="col-"]{
+  height: 20vh;
+  background: coral;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 20vh;
+}
