@@ -17,6 +17,10 @@
   padding: 10px;
 }
 
+.nested .container [class*="col"]{
+  border: 1px solid white;
+}
+
 .nested [class*="col-"]{
   height: calc(20vh - 22px);
   background: coral;
